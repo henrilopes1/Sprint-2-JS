@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(126, 179, 45);
+}
+
+
+.container-text h2{
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.container-text{
+    padding: 3% 10% 7% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    font-size: 18px;
+}
+
+#bg-img{
+    width: 100vw;
+    height: 80vh;
+}
+
+#latas-lixo-img{
+    width: 400px;
+    height: auto;
+}
+
+#lixeira-inteligente-img{
+    border: 2px solid #6f9d3f;
+    border-radius: 20px;
+}
+
+#app-img{
+    width: 200px;
+}
+
+#coleta-img{
+    width: 800px;
+}
+
+.section-bg{
+    background-color: #e3f4d2;
+}
