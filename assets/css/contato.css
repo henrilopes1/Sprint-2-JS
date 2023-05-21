@@ -9,7 +9,7 @@
   
 /* container do formulário */
 .container{
-    background-color: #fafafa;
+    background-color: #ffffffee;
     border-radius: 14px;
     margin: 14px;
     max-width: 600px;
@@ -20,7 +20,7 @@
   
 /* header fomulário */
 .form-header{
-    background: linear-gradient(120deg, #13044e, #3e80cc 100%);
+    background: linear-gradient(120deg, #6f9d3f, #80dd1d 100%);
     padding: 24px;
     text-align: center;
     color: #ffffff;
@@ -61,7 +61,7 @@
   
 /* Botão de envio */
 .form button{
-    background: linear-gradient(120deg,  #13044e, #3e80cc 100%);
+    background: linear-gradient(120deg, #6f9d3f, #80dd1d 100%);
     color: #FFF;
     width: 100%;
     border-radius: 14px;
