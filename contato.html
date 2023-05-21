@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Empório da Bebida</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/btn.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">  
+</head>
+
+<body class="contato">
+    <!-- Início - Header -->
+    <header class="header-page">
+        <h2 id="header-titulo">Empório da Bebida</h2>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim - Header -->
+    
+    <!-- Formulário -->
+    <div class="container">
+        <section class="form-header">
+            <h1>Contato</h1>
+        </section>
+        
+        <form id="myForm" class="form">
+            <div class="form-content">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome..." required>
+            </div>
+
+            <div class="form-content">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite o seu email..." required>
+                
+            </div>
+            
+            <div class="form-content">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" placeholder="Digite seu telefone..." required>
+                <!-- <a>Aqui vai a mensagem de erro....</a> -->
+            </div>
+            
+            
+            <button type="submit" value="Enviar">Enviar</button>
+        </form>
+    </div> 
+
+    <!-- Botão de alterar cor -->
+    <div>
+        <button class="btn" onclick="mudarCorBg()">Alterar Cor</button>
+    </div>
+
+    <!-- Inínio - Footer -->
+    <footer class="footer">
+        <h2>Empório da Bebida</h2>
+        <ul>
+            <h4 id="datafinal"></h4>
+            <h4>Telefone:</h4>
+            <h4>Facebook:</h4>
+            <h4>Instagram:</h4>
+            <h4>Linkedin:</h4>
+        </ul>
+    </footer>
+    <!-- Fim - Footer -->
+
+    <!-- Link script -->
+    <script src="./assets/script/script.js"></script>
+        
+</body>
+
+</html>
