@@ -12,17 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-function validarFormulario(){
-
-
-}
 
 function validarFormulario(){
     let nomeInput =  document.getElementById("nome").value
     let telInput = document.getElementById("telefone").value
     let emailInput = document.getElementById("email").value
 
-    if(nomeInput == "" || telInput == "" || email == ""){
+    if(nomeInput == "" || telInput == "" || emailInput == ""){
         alert("Por favor, preencha todos os campos.")
     }else{
         alert("Seus dados foram registrados com sucesso.")
