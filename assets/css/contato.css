@@ -1,21 +1,12 @@
-/* body contato */
-.contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 8% 2% 0 3%;
-    font-size: 1em;
-}
-  
 /* container do formulário */
-.container{
+.form-container{
     background-color: #ffffffee;
     border-radius: 14px;
-    margin: 14px;
+    margin: 5% auto;
     max-width: 600px;
     width: 100%;
-    box-sizing: 0 3px 5px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    border: 2px solid #3d5721;
 }
   
 /* header fomulário */
@@ -26,6 +17,10 @@
     color: #ffffff;
 }
 
+.form-header h2{
+    font-size: 32px;
+}
+
 /* Formatação do conteúdo do formulário */
 
 .form{
@@ -34,7 +29,7 @@
 }
   
 .form-content{
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     padding-bottom: 18px;
     position: relative;
 }
@@ -46,38 +41,34 @@
   
 .form-content input{
     display: block;
-    width: 100%;
+    width: 96%;
     border-radius: 8px;
     padding: 8px;
-    border: 2px solid #ffffff;
+    border: 2px solid #d3d3d3;
 }
-  
-.form-content a{
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    visibility: hidden;
-}
-  
+
 /* Botão de envio */
+
+.form-btn{
+    width: 20%;
+    margin: 0 auto;
+}
+
 .form button{
-    background: linear-gradient(120deg, #6f9d3f, #80dd1d 100%);
-    color: #FFF;
     width: 100%;
+    background-color: #6f9d3f;
+    border:2px solid #6f9d3f;
     border-radius: 14px;
     padding: 10px;
-    border: 0;
-    font-size: 16px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FFF;
     cursor: pointer;
-    margin-top: 14px;
+    transition: .5s;
 }
-  
-.form-content.error input{
-    border-color: #ff3b25;
+
+.form button:hover{
+    background-color: transparent;
+    color: #6f9d3f;
 }
-  
-.form-content.error a{
-    color: #ff3b25;
-    visibility: visible;
-}
-  
